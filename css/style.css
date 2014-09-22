@@ -1,32 +1,30 @@
 body { 
-   margin:5px;
    background-color:gray;
 }
 #header {
    background-color: lightgreen;
    text-align:center;
 }
+#main {
+   height:700px;
+}
+   
 #colSmall {
    float:left;
    width:20%;
    background-color:lightgreen;
    padding:1% 2% 1% 2%;
-   right-margin:5px;
-   height:500px;
+   height: 100%;
 }
 #colMain {
    float:right;
    width:70%;
    background-color:lightblue;
    padding:1% 2% 1% 2%;
-   left-margin:5px;
-   height:500px;
+   height: 100%;
    overflow: scroll;
 }
 #footer {
-   height 100px;
    background-color: lightyellow;
-   clear: none;
-   padding: 5px;
    text-align: center;
 }
